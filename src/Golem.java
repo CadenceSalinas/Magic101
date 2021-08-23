@@ -25,7 +25,10 @@ public class Golem extends Enemies
         this.element = element;
     }
     //brain methods
-
+    public void warningCry()
+    {
+        System.out.println("watch yo step");
+    }
     //toString
 
     @Override
