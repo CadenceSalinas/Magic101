@@ -8,12 +8,14 @@ public class MagicDriver
         Goblin gerome = new Goblin (100, false, 0);
         Dragon erika = new Dragon(250, true, 10);
         Dragon stuntedBird = new Dragon(250, true, -5);
-        Golem issac = new Golem(300, false, Golem.Elements.stone);
+        Golem issac = new Golem(300, false, Golem.Elements.air);
         Golem villageDefender = new Golem(300, false, Golem.Elements.iron);
 
         Player kenzu = new Player(200, 100, "kenzu");
 
         System.out.println(stuntedBird.checkWing());
+        System.out.println(villageDefender.canThrow());
+        System.out.println(issac.canThrow());
 
         // System.out.println(kenzu.toString());
         Enemies[] myEnemies = {kyle, gerome, erika, stuntedBird, issac, villageDefender};
