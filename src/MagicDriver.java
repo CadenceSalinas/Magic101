@@ -14,8 +14,6 @@ public class MagicDriver
         Player kenzu = new Player(200, 100, "kenzu");
 
         System.out.println(stuntedBird.checkWing());
-        System.out.println(villageDefender.canThrow());
-        System.out.println(issac.canThrow());
 
         // System.out.println(kenzu.toString());
         Enemies[] myEnemies = {kyle, gerome, erika, stuntedBird, issac, villageDefender};

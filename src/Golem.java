@@ -25,17 +25,7 @@ public class Golem extends Enemies
         this.element = element;
     }
     //brain methods
-    public boolean canThrow()
-    {
-        if(element != Elements.air)
-        {
-            return true;
-        }
-        else
-        {
-            return false;
-        }
-    }
+
     //toString
 
     @Override
