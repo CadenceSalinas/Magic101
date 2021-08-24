@@ -42,7 +42,7 @@ public class Player
         if(mp>0)
         {
             System.out.println("Abracadabra alakazam!");
-            mp = -5;
+            mp =- 5;
         }
         else
         {
@@ -51,10 +51,10 @@ public class Player
     }
     public void loseHealth()
     {
-        if(health <= 0)
+        if(this.health >= 0)
         {
             System.out.println(name + " took some damage!");
-            health=-10;
+            health -= 10;
         }
         else
         {
