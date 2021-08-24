@@ -1,8 +1,7 @@
-import java.sql.SQLOutput;
-
 public class MagicDriver
 {
-    private static int count;
+    private static int enemyCount;
+    private static int playerCount;
     public static void main(String[] args)
     {
         //Enemies
@@ -22,9 +21,10 @@ public class MagicDriver
         for(int i = 0; i < myEnemies.length; i++)
         {
             System.out.println(myEnemies[i]);
-            count++;
+            enemyCount++;
         }
-        System.out.println("The count is " + count);
+        System.out.println("The enemy count is " + enemyCount);
+        System.out.println("The player count is " + playerCount);
 
     }
 }//end driver
