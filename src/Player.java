@@ -64,9 +64,9 @@ public class Player
     //toString
     @Override
     public String toString() {
-        String output = "Player Name: " + name +
-                "\nHealth: " + health +
-                "\nMagic Power: " + mp;
+        String output = "Player Name: " + name;
+               output += "\nHealth: " + health +
+                         "\nMagic Power: " + mp;
         return output;
     }
 }//end Player
