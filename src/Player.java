@@ -37,9 +37,19 @@ public class Player
         this.name = name;
     }
     //brain methods
-
+    public void castSpell()
+    {
+        if(mp>0)
+        {
+            System.out.println("Abracadabra alakazam!");
+            mp = -5;
+        }
+        else
+        {
+            System.out.println("You don't have enough MP!");
+        }
+    }
     //toString
-
     @Override
     public String toString() {
         String output = "Player Name: " + name +
