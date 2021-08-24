@@ -15,6 +15,7 @@ public class MagicDriver
 
         System.out.println(stuntedBird.checkWing());
         issac.warningCry();
+        System.out.println(kenzu.toString());
 
         // System.out.println(kenzu.toString());
         Enemies[] myEnemies = {kyle, gerome, erika, stuntedBird, issac, villageDefender};
