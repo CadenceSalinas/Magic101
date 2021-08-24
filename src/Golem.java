@@ -27,7 +27,7 @@ public class Golem extends Enemies
     //brain methods
     public void warningCry()
     {
-        System.out.println("watch yo step");
+        System.out.println("Bazinga");
     }
     //toString
 
