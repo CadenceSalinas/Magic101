@@ -49,6 +49,18 @@ public class Player
             System.out.println("You don't have enough MP!");
         }
     }
+    public void loseHealth()
+    {
+        if(health <= 0)
+        {
+            System.out.println(name + " took some damage!");
+            health=-10;
+        }
+        else
+        {
+            System.out.println("You ran out of health! You died!");
+        }
+    }
     //toString
     @Override
     public String toString() {
