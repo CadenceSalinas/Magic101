@@ -14,8 +14,10 @@ public class MagicDriver
 
         //Player/sorcerer
         Player kenzu = new Player(200, 100, "kenzu");
+        Player mario = new Player(1000, 500, "DMMC");
 
         System.out.println(kenzu.toString()+"\n");
+        System.out.println(mario.toString());
         Enemies[] myEnemies = {kyle, gerome, erika, stuntedBird, issac, villageDefender};
 
         for(int i = 0; i < myEnemies.length; i++)
