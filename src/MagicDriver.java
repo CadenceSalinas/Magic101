@@ -18,13 +18,21 @@ public class MagicDriver
 
         System.out.println(kenzu.toString()+"\n");
         System.out.println(mario.toString());
-        Enemies[] myEnemies = {kyle, gerome, erika, stuntedBird, issac, villageDefender};
 
-        for(int i = 0; i < myEnemies.length; i++)
+        Enemies[] myEnemies = {kyle, gerome, erika, stuntedBird, issac, villageDefender};
+        Player[] myPlayer = {kenzu, mario};
+
+//        for(int i = 0; i < myEnemies.length; i++)
+//        {
+//            System.out.println(myEnemies[i]);
+//            enemyCount++;
+//        }
+
+        for(int i = 0; i < myPlayer.length; i++)
         {
-            System.out.println(myEnemies[i]);
-            enemyCount++;
+            System.out.println(myPlayer[i]);
         }
+
         System.out.println("The enemy count is " + enemyCount);
         System.out.println("The player count is " + playerCount);
 
