@@ -16,11 +16,17 @@ public class MagicDriver
         Player kenzu = new Player(200, 100, "kenzu");
         Player mario = new Player(1000, 500, "DMMC");
 
-        System.out.println(kenzu.toString()+"\n");
-        System.out.println(mario.toString());
-
         Enemies[] myEnemies = {kyle, gerome, erika, stuntedBird, issac, villageDefender};
         Player[] myPlayer = {kenzu, mario};
+
+        System.out.println("Kyle can build?: " + kyle.canBuild() + "\n");
+        System.out.println("What is Erika's wingspan?: " + erika.getWings() + "\n");
+        System.out.println("What kind of golem is Issac?: " + issac.getElement() + "\n");
+        kenzu.castSpell();
+        System.out.println("Kenzu casts a spell! Now they have " + kenzu.getMp() + " MP!\n");
+        System.out.println("Mario has " + mario.getHealth() + " HP!\n");
+        kenzu.setMp(100);
+        System.out.println("Now Kenzu has " + kenzu.getMp() + " MP!\n");
 
 //        for(int i = 0; i < myEnemies.length; i++)
 //        {
@@ -31,6 +37,7 @@ public class MagicDriver
         for(int i = 0; i < myPlayer.length; i++)
         {
             System.out.println(myPlayer[i]);
+            System.out.println();
             playerCount++;
         }
 
