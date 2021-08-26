@@ -31,6 +31,7 @@ public class MagicDriver
         for(int i = 0; i < myPlayer.length; i++)
         {
             System.out.println(myPlayer[i]);
+            playerCount++;
         }
 
         System.out.println("The enemy count is " + enemyCount);
