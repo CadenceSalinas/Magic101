@@ -28,16 +28,16 @@ public class MagicDriver
         kenzu.setMp(100);
         System.out.println("Now Kenzu has " + kenzu.getMp() + " MP!\n");
 
-//        for(int i = 0; i < myEnemies.length; i++)
-//        {
-//            System.out.println(myEnemies[i]);
-//            enemyCount++;
-//        }
+        for(int i = 0; i < myEnemies.length; i++)
+        {
+            System.out.println(myEnemies[i]);
+            enemyCount++;
+        }
 
         for(int i = 0; i < myPlayer.length; i++)
         {
-            System.out.println(myPlayer[i]);
-            System.out.println();
+            //System.out.println(myPlayer[i]);
+            //System.out.println();
             playerCount++;
         }
 
